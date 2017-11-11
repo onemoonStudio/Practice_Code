@@ -1,3 +1,11 @@
+#### sudo yarn global add create-react-app
+#### cd my-dir -> create-react-app \<name>
+
+###### yarn global 로 할때는 설정상의 문제때문에 잘 안됐다. global 일때는 sudo를 쓰면 쉽다. (npm 과 다름)
+
+노마드 코더에서 무료 강의를 보면서 정리
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
