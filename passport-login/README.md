@@ -29,5 +29,7 @@ index.js & /middlewares/passport 에 서드파티 관련된 로직이 들어 있
 ## Reference 
 
 [NPM](https://www.npmjs.com/)
+
 [passport](http://www.passportjs.org/)
+
 [카카오 개발자 센터](https://developers.kakao.com)
