@@ -9,14 +9,14 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
-app.get('/',function(req,res){
+app.get('/',(req,res) => {
   res.write('<h1>hello world! </h1> </br> <a href="/oauth/kakao"><img src="https://developers.kakao.com/assets/img/about/logos/login/kr/kakao_account_login_btn_medium_narrow_ov.png"></a>');
   res.end();
 })
-.get('/profile',function(req,res){
+.get('/profile',(req,res) => {
   res.json(req.user);
 })
-.get('/logout',function(req,res){
+.get('/logout',(req,res) => {
   req.logout();
   res.send('ok');
 })
