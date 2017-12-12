@@ -1,13 +1,8 @@
 # Promise 사용 예제
 
-index.js
-pro.js
+practice_1 ~ 2 .js
 
-여기에서는 기존 promise 사용
-
-pro_chainng.js
-
-여러개의 promise 를 chaing 형식으로 연결
+기존 예제들 사용 + 주석
 
 bb.js
 
@@ -18,3 +13,7 @@ bb.js
 .all
 .spead
 .catch 등 사용
+
+--------- update 예정
+
+denodeify

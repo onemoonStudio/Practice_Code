@@ -1,23 +1,9 @@
 const Promise = require('promise');
 
-// blog ex
-
-// var asyncfunction = function (param) {
-//       // 이 return new Promise 가 반드시 필요하다.
-//       return new Promise(function (resolved, rejected) {
-//             setTimeout(
-//                   function () {
-//                         resolved('hello' + param);
-//                   }, 2000);
-//       });
-// }
-// var promise = asyncfunction(' james ');
-// promise.then(console.log, console.err); // 여기가 비동기 결과에 대한 콜백함
-
 // my ex
 var asyncfunction = () => {
       return new Promise((resolved , rejected) => {
-            if(false){
+            if(false){ // reject test
                   resolved('hello');
             }else{
                   rejected(Error('world'));
