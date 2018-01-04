@@ -5,7 +5,7 @@ class SearchBar extends Component{
     constructor(props){
         super(props);
         
-        this.state = { term : '' };
+        // this.state = { term : '' };
     }
 
     render(){
@@ -18,7 +18,7 @@ class SearchBar extends Component{
     }
 
     onChangeInput(term){
-        this.setState({term});
+        // this.setState({term});
         this.props.onChangeSearchTerm(term);
     }
 
