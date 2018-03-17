@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="/style/staff.css">
+<div class="stafflog">
+    <h1>FOR <br>VISION <br>OFFICER</h1>
+    <form action="/auth/login" method="post">
+        <input type="text" name="username" placeholder="ID" required></input>
+        <input type="password" name="password" placeholder="PW" required></input>
+        <input type="submit" value="I'm VISION OFFICER"></input>
+    </form>
+    <br>
+    {{#if message}}
+         <p>{{message}}</p>
+    {{/if}}
+</div>

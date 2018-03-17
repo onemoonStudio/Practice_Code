@@ -1,0 +1,70 @@
+    /*@@@@@ Vision page @@@@@*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.main_nav_items:nth-child(2){
+    background-color: black;
+    color:beige;
+}
+#vision_section{
+    margin-top:100px;
+    width:80%;
+    margin-left: 10%;
+    height: 2400px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#vision_main{
+    height: 75px;
+    padding-top:25px;
+    font-size : 50px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color:white;
+}
+.vision_info *{
+    text-align:left;
+}
+.vision_article{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.vision_article>p{
+    font-size:40px;
+    font-family: 'Raleway', sans-serif;
+    height: 70px;
+    padding-top:30px;
+    margin-bottom: 20px;
+}
+.networking>p{
+    background-color: #ABD0CE;
+    color:white;
+    text-align:left;
+    width: 85%;
+    padding-left: 15%;
+}
+.session>p{
+    background-color: #7C7877;
+    color:white;
+    width: 100%;
+}
+.building>p{
+    background-color: #D9D4CF;
+    color:white;
+    text-align:right;
+    width: 90%;
+    padding-right: 10%;
+}
+.intro{
+    font-size:40px;
+    font-weight: 600;
+}
+.introduce{
+    font-size:20px;
+}
+.vision_article>div p{
+    text-align:left;
+}
+.footer{
+    display: none;
+}

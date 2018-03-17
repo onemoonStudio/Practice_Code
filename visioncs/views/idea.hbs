@@ -1,0 +1,30 @@
+<style>
+    #idea{
+        margin-top:100px;
+        width:50%;
+        margin-left:25%;
+    }
+    #idea>input{
+        height:50px;
+        font-size:2rem;
+    }
+    #idea>textarea{
+        font-size:1.5rem;
+    }
+    #idea>input[type=submit]{
+        width:200px;
+        height:100px;
+        background-color:black;
+        color:white;
+        border-radius:40px;
+    }
+</style>
+
+<h1>Idea Card</h1>
+<form action="/idea" method="post" id="idea">
+    <input type="text" name="ideaSuggester" placeholder="제안자 이름 (확인용 입니다.)" required></input>
+    <input type="text" name="ideaName" placeholder="아이디어 이름" required></input>
+    {{!--<input type="text" name="ideaAriticle" placeholder="100자이내로 요약해주세요 !" required></input>--}}
+    <textarea cols="30" rows="5" name="ideaArticle">아이디어를 100자 이내로 요약해주세요 !!</textarea>
+    <input type="submit" value="Suggest"></input>
+</form>

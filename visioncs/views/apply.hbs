@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="/style/apply.css">
+<div id="apply" class="background applyimg">
+           <div class="applyback">
+                <h2>Welcome</h2>
+                   <br>
+                    <form action="/apply" method="post">
+                    <input type="text" id="ksttime" name="applyDate" value="" style="display:none"></input>
+                        <div id="choice_uni_box">
+                            <label for="cau" id="cau_label" class="choice_uni">
+                            <img src="images/cau_logo.jpg" alt="" value="중앙대학교"></label>
+                            <label for="sookmyung" id="smu_label" class="choice_uni">
+                            <img src="images/smu_logo.png" alt="" value="숙명여자대학교"></label>
+                        </div>
+                        <input type="radio" name="freshCollege" id="cau" value="중앙대학교" checked="checked">
+                        <input type="radio" name="freshCollege" id="sookmyung" value="숙명여자대학교">
+                        <p id="school">학교를 선택하세요</p>
+                        <input type="text" name="freshName" placeholder=" Name" required/>
+                        <input type="text" name="freshPhone" placeholder=" Phone Number" required><br>
+                        <p id="kind">관심있는 창업 분야를 알려주세요 !</p>
+                        <input type="text" name="freshKind" placeholder="ex) IT/외식/쇼핑/지식산업 아무거나!"></input><br><br>
+                        <label>왜 VISION에 들어오고 싶으신가요?</label><br><br>
+                        <textarea name="freshArticle" placeholder="지원동기를 작성해주세요!!" required></textarea><br><br>
+                        <label>VISION에서 하고싶은활동이나 건의사항이 있다면 적어주세요</label><br><br>
+                        <textarea name="freshRecommendation" placeholder=" :) " required></textarea><br><br>
+                            <button id="submit_btn">지원하기</button>
+                    </form>
+                </div>
+        </div>
+        <span style="display:none" id="alert">{{message}}</span>
+        <script type="text/javascript" src="/m_alert.js"></script>
+        <script type="text/javascript" src="/time.js"></script>

@@ -1,0 +1,78 @@
+    /*@@@@@STAFF page@@@@@*/
+
+.main_nav_items:last-child{
+    background-color: black;
+    color:beige;
+}
+
+.stafflog{
+    margin:auto;
+    padding-bottom: 200px;
+    font-size:2rem;
+}
+.stafflog>h1{
+    margin-top:100px;
+    margin-bottom: 30px;
+}
+.stafflog input{
+    font-size:1.5rem;
+}
+.stafflog input:first-child{
+    width:60%;
+    height: 100px;
+}
+.stafflog input:nth-child(2){
+    width:60%;
+    height: 100px;
+}
+.stafflog input:last-child{
+    margin-top: 30px;
+    width:40%;
+    height: 50px;
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+    /*@@@@@staff login ok@@@@@*/
+#log_staff{
+    margin-top:100px;
+    margin-bottom: 200px;
+}
+#log_table{
+    
+    width: 60%;
+    margin:0 auto;
+    margin-top:50px;
+    border-collapse: collapse;
+}
+#log_table td,th{
+    border-bottom:1px solid #b5b5b5;
+    width:20%;
+    height: 50px;
+}
+#log_table th{
+    background-color: #b5b5b5;
+    font-size:1.5rem;
+    color:white;
+    border:none;
+}
+#log_table th:first-child{
+    border-radius: 10px 0 0 10px;
+}
+#log_table th:last-child{
+    border-radius: 0 10px 10px 0;
+}
+.licheck{
+    background-color: #fdf0d5;
+    color:#a52a2a;
+}
+.fresh_article{
+    color:#a52a2a;
+    background-color: #fdf0d5;
+    padding:50px 0 50px 0;
+}
+.lets_hide{
+    display: none;
+}
+

@@ -1,0 +1,124 @@
+    /*@@@@@APPLY page@@@@@*/
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+.main_nav_items:nth-child(3){
+    background-color: black;
+    color:beige;
+}
+body{
+    background-color:black;
+    font-family: 'jeju gothic',serif;
+}
+#apply{
+    background-color:#313131;
+    height: 1100px;
+    margin-top:50px;
+    padding-top:50px;
+}
+.applyimg:after{
+    z-index: -1;
+    position:absolute;
+    top:0;
+    left: 0;
+    content: "";
+    width:100%;
+    height: 100%;
+    background-image: url("/images/apply8.jpg");
+    background-size: 1600px 1200px;
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    opacity: 1;
+}
+
+
+.applyback{
+    position:relative;
+    background-color: rgba(255, 250, 240, 0.9);
+    width:500px;
+    height: 900px;
+    margin-left: 50%;
+    border-radius: 50px;
+    color:black;
+}
+.applyback>h2{
+    margin-top:50px;
+    font-size:1.5rem;
+}
+#choice_uni_box{
+    height: 100px;
+}
+.choice_uni>img{
+    width:100px;
+    height: 100px;
+    opacity: 0.3;
+    border:1px solid gray;
+}
+.applyon>img{
+    opacity: 1;
+}
+#apply input[type="radio"]{
+    display: none;
+}
+#school{
+    padding-top:30px;
+    padding-bottom:30px;
+    font-weight: 400;
+}
+#kind{
+    display: block;
+}
+input{
+    
+    width:80%;
+    /*margin-left: 10%;*/
+    margin:auto;
+    margin-top:10px;
+    text-align: left;
+}
+input[name="freshName"]{
+    display: block;
+    /*width:200px;*/
+    height: 50px;
+    font-size: 1.5rem;
+}
+input[name="freshPhone"]{
+    display: block;
+    /*width:200px;*/
+    height: 50px;
+    font-size: 1.5rem;
+}
+input[name="freshKind"]{
+    font-size:1.5rem;
+    width:80%;
+    height:50px;
+    text-align: left;
+}
+textarea{
+    border:1px solid gray;
+    border-style: inset;
+}
+
+textarea[name="freshArticle"]{
+    font-size: 1.5rem;
+    width:80%;
+    height:100px;
+    text-align: left;
+}
+textarea[name="freshRecommendation"]{
+    font-size:1.5rem;
+    width:80%;
+    height:100px;
+    text-align: left;
+}
+#submit_btn{
+    width: 150px;
+    height: 80px;
+    margin:auto;
+    margin-top:20px;
+    background: black;
+    color:white;
+    border:none;
+    font-size:1.5rem;
+    border-radius: 30px;
+}

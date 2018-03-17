@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="/style/staff.css">
+<div id="log_staff">
+    <h1>동아리 신입생 모집 현황</h1>
+    <p> 총 {{data.length}} 명 지원!</p>
+    <table id="log_table">
+        <tr>
+            <th>날짜</th>
+            <th>이름</th>
+            <th>학교</th>
+            <th>Phone</th>
+            <th>Area</th>
+        </tr>
+        {{#each data}}
+        <tr>
+            <td>{{applydate}}</td>
+            <td>{{freshName}}</td>
+            <td>{{freshCollege}}</td>
+            <td>{{freshPhone}}</td>
+            <td>{{freshKind}}</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="fresh_article lets_hide">{{freshArticle}} </td>
+            <td colspan="2" class="fresh_article lets_hide">{{freshRecommendation}} </td>
+        </tr>
+        {{/each}}
+    </table>
+    
+    <style>
+        .footer{
+            display:none;
+        }
+    </style>
+</div>
